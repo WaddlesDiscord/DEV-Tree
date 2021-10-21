@@ -1,25 +1,25 @@
 let modInfo = {
-	name: "The ??? Tree",
-	id: "mymod",
-	author: "nobody",
-	pointsName: "points",
+	name: "Waddling Universe",
+	id: "waddles",
+	author: "Waddles",
+	pointsName: "Fragments",
 	modFiles: ["layers.js", "tree.js"],
 
 	discordName: "",
 	discordLink: "",
 	initialStartPoints: new Decimal (10), // Used for hard resets and new players
-	offlineLimit: 1,  // In hours
+	offlineLimit: 24,  // In hours
 }
 
 // Set your version in num and name
 let VERSION = {
 	num: "0.0",
-	name: "Literally nothing",
+	name: "In the beginging...",
 }
 
-let changelog = `<h1>Changelog:</h1><br>
+let changelog = `<h1>The Universal Charter</h1><br>
 	<h3>v0.0</h3><br>
-		- Added things.<br>
+		&#8213;.<br>
 		- Added stuff.`
 
 let winText = `Congratulations! You have reached the end and beaten this game, but for now...`
