@@ -24,10 +24,10 @@ addLayer("Fragments", {
     layerShown(){return true},
 	infoboxes: {
     	lore: {
-        	title: "foo",
-        	body() { return "bar" },
+        	title: "Story Note 1",
+        	body() { return "In the beginning there was nothing. Nothing but a small spec of dust. However, this was not a normal spec of dust. For this was the Eternal Spec, the Spec of Life!" },
         },
-	},
+},
     clickables: {
 		11:{
 			unlocked(){
