@@ -2,7 +2,7 @@ let modInfo = {
 	name: "Waddling Universe",
 	id: "waddles",
 	author: "Waddles",
-	pointsName: "Fragments",
+	pointsName: "Dust",
 	modFiles: ["layers.js", "tree.js"],
 
 	discordName: "",
