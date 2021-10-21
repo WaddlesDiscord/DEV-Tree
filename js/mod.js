@@ -7,7 +7,7 @@ let modInfo = {
 
 	discordName: "",
 	discordLink: "",
-	initialStartPoints: new Decimal (10000000), // Used for hard resets and new players
+	initialStartPoints: new Decimal (10), // Used for hard resets and new players
 	offlineLimit: 24,  // In hours
 }
 
@@ -18,8 +18,8 @@ let VERSION = {
 }
 
 let changelog = `<h1>The Universal Charter</h1><br>
-	<h3>v0.0</h3><br>
-		&#8213;.<br>
+	<h3 style="color:green">Current Version - v0.0</h3><br>
+		.<br>
 		- Added stuff.`
 
 let winText = `Congratulations! You have reached the end and beaten this game, but for now...`
