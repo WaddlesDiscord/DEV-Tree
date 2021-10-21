@@ -22,4 +22,15 @@ addLayer("Fragments", {
         return new Decimal(1)
     },
     layerShown(){return true}
+    
+    clickables: {
+		11:{
+			unlocked(){
+				return true;
+			},
+			title() {return "Story Note #1"},
+			display() {return "<h3>In the beginning</h3>},
+			canClick(){ return false}
+		},
+    },
 })
