@@ -21,15 +21,14 @@ addLayer("Fragments", {
     gainExp() { // Calculate the exponent on main currency from bonuses
         return new Decimal(1)
     },
-    layerShown(){return true}
-    
+    layerShown(){return true},
     clickables: {
 		11:{
 			unlocked(){
 				return true;
 			},
 			title() {return "Story Note #1"},
-			display() {return "<h3>In the beginning</h3>},
+			display() {return "<h3>In the beginning</h3>"},
 			canClick(){ return false}
 		},
     },
