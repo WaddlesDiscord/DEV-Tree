@@ -55,6 +55,8 @@ function addedPlayerData() { return {
 
 // Display extra things at the top of the page
 var displayThings = [
+	'Current endgame: Legit nothing lol'
+	'This is a WIP'
 ]
 
 // Determines when the game "ends"
