@@ -22,6 +22,12 @@ addLayer("Fragments", {
         return new Decimal(1)
     },
     layerShown(){return true},
+	infoboxes: {
+    	lore: {
+        	title: "foo",
+        	body() { return "bar" },
+        },
+	},
     clickables: {
 		11:{
 			unlocked(){
