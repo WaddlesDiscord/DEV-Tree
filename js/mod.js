@@ -3,7 +3,7 @@ let modInfo = {
 	id: "waddles",
 	author: "Waddles",
 	pointsName: "Dust",
-	modFiles: ["./layers/startinglayers/fragments.js", "tree.js"],
+	modFiles: ["./layers/starting/investigation.js",  "./layers/special/story.js","tree.js"],
 
 	discordName: "",
 	discordLink: "",
@@ -45,12 +45,12 @@ function getPointGen() {
 	let gain = new Decimal(1)
 	
 	
-	
 	return gain
 }
 
 // You can add non-layer related variables that should to into "player" and be saved here, along with default values
 function addedPlayerData() { return {
+	invgain: decimalZero
 }}
 
 // Display extra things at the top of the page
