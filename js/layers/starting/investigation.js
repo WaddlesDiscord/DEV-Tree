@@ -6,7 +6,7 @@ addLayer("inv", {
     row: 0,
     startData() { return {
         unlocked: true,
-		    points: new Decimal(10000000000),
+		    points: new Decimal(1),
     }},
     color: "#4BDC13",
     requires: new Decimal(10), // Can be a function that takes requirement increases into account
